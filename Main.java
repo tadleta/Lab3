@@ -10,13 +10,13 @@ class Main {
     num = s.nextInt();
     
     if(num >= 0)
-      while(num > 0)
+      while(num >= 0)
       {
         System.out.println(num + "...");
         num--;
       }
     else if(num < 0)
-      while(num < 0)
+      while(num <= 0)
       {
         System.out.println(num + "...");
         num++;
